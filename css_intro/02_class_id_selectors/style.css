@@ -1,0 +1,16 @@
+.paragraph_pink {
+    background-color: rgb(210, 122, 178) ;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+#no_2 {
+    color: blue;
+    font-size: 36px;
+}
+.paragraph_pink.larger {
+    font-size: 24px;
+}
+#no_4 {
+    background-color: #66f566;
+    font-size: 24px;
+    font-weight: bold;
+}
