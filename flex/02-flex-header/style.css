@@ -50,12 +50,17 @@ a {
   got everything right except gap was left on left hand side bigger than the gap on the right hand side
   try again - after understanding solution
 } */
+/* * {
+  border: solid red;
+  margin: 1px;
+} */
 .header  {
   font-family: monospace;
   background: papayawhip;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 8px;
 }
 
 .logo {
@@ -71,6 +76,9 @@ ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
   display: flex;
+  margin: 0px;
+  padding: 0px;
+  gap: 8px
 }
 
 a {
