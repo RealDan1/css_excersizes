@@ -23,6 +23,12 @@ body {
   padding: 15px;
 }
 
+.header {
+  font-weight: bold;
+  font-size: 20px;
+  margin-left: 0px;
+}
+
 .icon {
   color: royalblue;
   font-size: 26px;
@@ -52,6 +58,12 @@ body {
   border: 1px solid #eee;
   padding: 0;
   flex-shrink: 0;
+  margin-left: auto
+}
+
+.close-box-box {
+  display: flex;
+  align-items: center;
 }
 
 button {
@@ -75,6 +87,10 @@ button.cancel {
 .header-box {
   display: flex;
   justify-content: space-between
+}
+
+.text {
+  margin-top: 7px;
 }
 
 /* .icon {
