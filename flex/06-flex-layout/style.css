@@ -17,6 +17,13 @@ button {
   border-radius: 8px;
   background: #eee;
 }
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-left: 0px;
+}
 
 input {
   border: 1px solid #ddd;
@@ -24,4 +31,14 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+.header {
+  display:flex
+}
+.right-links {
+  margin-left:auto;
+}
+
+.footer {
+  display: flex;
 }
