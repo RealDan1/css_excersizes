@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  /* align-items: end; */
 }
 
 img {
@@ -56,9 +59,10 @@ input {
 .footer {
   display: flex;
   background-color: #eeeeee;
+  /* align-self: end; */
   /* flex-direction: column; */
   /* align-items: end; */
-  /* margin-bottom: auto; */
+  /* margin-top: auto; */
   /* justify-content: end; */
   
 }
