@@ -7,7 +7,6 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
-  /* align-items: end; */
 }
 
 img {
@@ -32,11 +31,8 @@ a {
 }
 
 li {
-  /* margin-left: 2px; */
   padding: 10px;
   display: inline;
-  /* margin-right: 2px; */
-  /* gap: 20px; */
 }
 
 input {
@@ -51,26 +47,17 @@ input {
 }
 .right-links {
   margin-left:auto;
-  
-  /* flex-direction: column; */
-  /* display: inline */
 }
 
 .footer {
   display: flex;
   background-color: #eeeeee;
-  /* align-self: end; */
-  /* flex-direction: column; */
-  /* align-items: end; */
-  /* margin-top: auto; */
-  /* justify-content: end; */
-  
+  margin-top: auto;
 }
 
 .content {
   /* display: flex; */
   /* align-items: center; */
-  /* flex-direction: column;
-  align-items: center; */
+  /* flex-direction: column;*/
   text-align: center;
 }
