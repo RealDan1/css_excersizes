@@ -7,6 +7,7 @@ body {
   font-family: Roboto, sans-serif;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 img {
@@ -52,12 +53,10 @@ input {
 .footer {
   display: flex;
   background-color: #eeeeee;
-  margin-top: auto;
+  /* margin-top: auto; */
 }
 
 .content {
-  /* display: flex; */
-  /* align-items: center; */
-  /* flex-direction: column;*/
   text-align: center;
+  /* justify-content: center; */
 }
