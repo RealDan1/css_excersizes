@@ -8,6 +8,7 @@
       body {
         background-color: #eff7f6;
         margin: 10px 15px;
+        font-family: 'Times New Roman', Times, serif;
       }
       .content {
         display: flex;
@@ -23,6 +24,18 @@
         border-radius: 8px;
       }
 
+      footer {
+        background-color: #e4ebee;
+
+        border-radius: 8px;
+        margin: 5px 0px;
+        padding: 10px;
+      }
+
+      footer nav a {
+        color: #1e2749;
+        border-radius: 5px;
+      }
       h1,
       h2,
       h3 {
@@ -41,12 +54,14 @@
         border-radius: 8px;
         background-color: #e4ebee;
       }
+
       #profile {
         margin-top: 10px;
         text-align: center;
         display: flex;
         flex-direction: column;
       }
+
       img {
         width: 100px;
         border-radius: 50%;
@@ -59,9 +74,11 @@
         flex: 1;
         margin: 0px 0px 0px 10px;
       }
+
       #contact {
         padding: 5px;
       }
+
       #contact-list,
       #hobbies-list,
       #languages-list {
@@ -72,7 +89,7 @@
   </head>
 
   <body>
-    <header>
+    <header id="header">
       <nav>
         <a href="#profile">Profile</a>
         <a href="#bio">Bio</a>
@@ -220,8 +237,8 @@
         </section>
       </div>
 
-      <aside>
-        <section id="aside">
+      <aside id="aside">
+        <section id="inner-aside">
           <section id="contact">
             <h2><u>Contact</u></h2>
             <ul id="contact-list">
@@ -260,5 +277,20 @@
         </section>
       </aside>
     </div>
+    <footer>
+      <nav>
+        <a href="#header">Back to Top</a>
+        <a href="#profile">Profile</a>
+        <a href="#bio">Bio</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Work Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#certifications">Certifications</a>
+        <a href="#community">Community Service</a>
+        <a href="#contact">Contact Details</a>
+        <a href="#languages">Languages</a>
+        <a href="#hobbies">Hobbies</a>
+      </nav>
+    </footer>
   </body>
 </html>
