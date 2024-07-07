@@ -58,15 +58,16 @@
         display: flex;
         flex: 1;
         margin: 0px 0px 0px 10px;
-        
       }
       #contact {
         padding: 5px;
       }
-      #contact-list, #hobbies-list, #languages-list {
+      #contact-list,
+      #hobbies-list,
+      #languages-list {
         padding: 0px 15px;
+        margin: 0px;
       }
-       
     </style>
   </head>
 
@@ -81,17 +82,19 @@
         <a href="#certifications">Certifications</a>
         <a href="#community">Community Service</a>
         <a href="#contact">Contact Details</a>
+        <a href="#languages">Languages</a>
+        <a href="#hobbies">Hobbies</a>
       </nav>
     </header>
     <section id="profile">
-      <h1>Daneel Van Der Merwe's CV</h1>
+      <h1>Curriculum Vitae - Daneel Van Der Merwe</h1>
       <div id="picture_div"></div>
       <img src="profile.jpg" alt="Profile" />
     </section>
 
     <hr />
     <div class="content">
-      <div class="inner-content"> 
+      <div class="inner-content">
         <section id="bio">
           <h2><u>Bio</u></h2>
           <p>
@@ -131,11 +134,17 @@
           <ul>
             <li>
               <b>Dialogue Recording Engineer</b>: 02/2023 to Current,
-              <a href="https://overklank.tv">Overklank Studios</a> CT
+              <a href="https://overklank.tv" target="_blank"
+                >Overklank Studios</a
+              >
+              CT
             </li>
             <li>
               <b>Dialogue Sync Engineer</b>: 02/2022 to 02/2023,
-              <a href="https://overklank.tv">Overklank Studios</a> CT
+              <a href="https://overklank.tv" target="_blank"
+                >Overklank Studios</a
+              >
+              CT
             </li>
             <li>
               <b>Boom Operator</b>: 02/2022 to 05/2022, Cape Mystery Tour
@@ -169,6 +178,7 @@
           </ul>
           <h3>Soft Skills</h3>
           <ol>
+            <li>Leadership</li>
             <li>Eager to Learn</li>
             <li>Problem-solving</li>
             <li>Attention to Detail</li>
@@ -208,42 +218,48 @@
             </li>
           </ol>
         </section>
-
         <hr />
       </div>
 
       <aside>
-        <section id="contact">
-          <h2><u>Contact</u></h2>
-          <ul id="contact-list">
-            <li>Name: Daneel Van Der Merwe</li>
-            <li>Phone: (+27)76 977 9457</li>
-            <li>
-              Email:<a href="mailto:daneelvdm97@gmail.com"
-                >daneelvdm97@gmail.com</a
-              >
-            </li>
-            <li>
-              <a href="www.linkedin.com">LinkedIn</a>
-            </li>
-            <li>
-              <a href="https://github.com/RealDan1">GitHub</a>
-            </li>
-          </ul>
-          <section></section>
-            <section id="Hobbies">
-          <h2><u>Hobbies</u></h2>
-          <ul>
-            <li>Psychology</li>
-            <li>Rock Climbing</li>
-            <li>
-              Information Technology
-            </li>
-            <li>Sound Production</li>
-          </ul>
+        <section id="aside">
+          <section id="contact">
+            <h2><u>Contact</u></h2>
+            <ul id="contact-list">
+              <li>Name: Daneel Van Der Merwe</li>
+              <li>Phone: (+27)76 977 9457</li>
+              <li>
+                Email:<a href="mailto:daneelvdm97@gmail.com"
+                  >daneelvdm97@gmail.com</a
+                >
+              </li>
+              <li>
+                <a href="www.linkedin.com" target="_blank">LinkedIn</a>
+              </li>
+              <li>
+                <a href="https://github.com/RealDan1" target="_blank">GitHub</a>
+              </li>
+            </ul>
+          </section>
+          <section id="languages">
+            <h2><u>Languages</u></h2>
+            <ul id="languages-list">
+              <li>English C1</li>
+              <li>Afrikaans C1</li>
+              <li>German A1</li>
+            </ul>
+          </section>
+          <section id="hobbies">
+            <h2><u>Hobbies</u></h2>
+            <ul id="hobbies-list">
+              <li>Psychology</li>
+              <li>Rock Climbing</li>
+              <li>Information Technology</li>
+              <li>Sound Production</li>
+            </ul>
+          </section>
         </section>
       </aside>
     </div>
   </body>
 </html>
-
